@@ -28,7 +28,7 @@ The ANN comprises of a single hidden layer with a Rectified Linear Unit (ReLU) a
 Learning rate dictates the impact each gradient step has on the steps.
 
 Gradient Rule:
-$$ \Delta w_i = \eta \sum_{d \in D} (t_d - o_d)x_{id} $$
+$ \Delta w_i = \eta \sum_{d \in D} (t_d - o_d)x_{id} $
 
 Where:
 
@@ -41,7 +41,7 @@ Where:
 Penalizes larger weights and limits the freedom of the model.
 
 Gradient Rule with Weight Decay:
-$$ \Delta w_i = \eta \sum_{d \in D} (t_d - o_d)x_{id} - \eta \lambda w_i $$
+$ \Delta w_i = \eta \sum_{d \in D} (t_d - o_d)x_{id} - \eta \lambda w_i $
 
 Where:
 1) $\lambda$ is the regularization parameter
