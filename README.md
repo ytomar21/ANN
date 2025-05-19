@@ -41,7 +41,7 @@ Where:
 Penalizes larger weights and limits the freedom of the model.
 
 Gradient Rule with Weight Decay:
-$ `\Delta w_i = \eta \sum_{d \in D} (t_d - o_d)x_{id} - \eta \lambda w_i `$
+$`\Delta w_i = \eta \sum_{d \in D} (t_d - o_d)x_{id} - \eta \lambda w_i `$
 
 Where:
 1) $\lambda$ is the regularization parameter
