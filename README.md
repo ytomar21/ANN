@@ -1,7 +1,7 @@
 # ANN Model
 This repository highlights the usecase of a simple Artificial Neural Network against the [Predict Calorie Expenditure Dataset](https://www.kaggle.com/competitions/playground-series-s5e5/overview)
 
-![ANN](ann.png)
+![ANN](ANN.png)
 
 ## Code
 1) ANN Model: ann.py
